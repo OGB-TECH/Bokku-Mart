@@ -1,0 +1,33 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg-page);
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* PARAGRAPHS */
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+}
