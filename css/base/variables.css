@@ -10,26 +10,24 @@
  
      /* Background Colours */
      --bg-page: #ffffff;
-     --bg-header: #001ddd;
-     --bg-footer: #001ddd;
+     --bg-header: #001DDD;
+     --bg-footer: #001DDD;
 
      /* Button Colours */
      --btn-primary: #0078ff;
      --btn-secondary: #125fb8;
+     --btn-bg: #ffffff1a;
  
      /* Text Colours */
      --text-primary: #242424;
-     --text-secondary: #0000ff;
-     --text-accent: #1a202c;
-     --text-secondary: #ffee01;
+     --text-secondary: #001DDD;
+     --text-accent: #3f3f3f;
+     --text-blue: #4055DE;
+     --text-black: #1a202c;
  
-     /* Font Sizes */
-     --font-size-small: 0.8rem;
-     --font-size-medium: 1rem;
-     --font-size-large: 1.2rem;
- 
-     /* Spacing */
-     --spacing-small: 0.5rem;
-     --spacing-medium: 1rem;
-     --spacing-large: 2rem;
+     /* Casual Colours */
+     --black: #000;
+     --bg: #f7fafc;
+     --border: #d6e4f6;
+     
    }

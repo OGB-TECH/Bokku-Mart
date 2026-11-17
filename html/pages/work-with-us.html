@@ -1,0 +1,256 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Work With Us | Bokku Mart</title>
+
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="../../css/base/reset.css">
+    <link rel="stylesheet" href="../../css/base/variables.css">
+    <link rel="stylesheet" href="../../css/base/typography.css">
+
+    <!-- Shared Components CSS -->
+    <link rel="stylesheet" href="../../css/components/header.css">
+    <link rel="stylesheet" href="../../css/components/footer.css">
+    <link rel="stylesheet" href="../../css/components/buttons.css">
+
+    <!-- Page CSS -->
+    <link rel="stylesheet" href="../../css/pages/work-with-us.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header id="main-header">
+        <!-- 
+            Add the same header and navigation HTML
+            you used on the homepage.
+        -->
+    </header>
+
+
+    <main>
+        <section class="work-with-us-page">
+
+            <!-- WORK WITH US BANNER -->
+            <section class="work-banner">
+                <img src="../../assets/images/work-with-us.jpg" alt="Bokku Mart team and store">
+            </section>
+
+
+            <!-- INTRODUCTION -->
+            <section class="work-intro">
+
+                <h1>Work with us!</h1>
+
+                <p>
+                    At bokku!, we know it's our employees who drive our success.
+                    Join the fastest-growing grocery chain in the country.
+                    Here, you have the chance to achieve your professional goals.
+                    This means development opportunities, training, direct
+                    employment without any agency intermediaries, and a very
+                    attractive salary.
+                </p>
+
+                <p>
+                    If you're honest, loyal, proactive, responsible and eager
+                    to learn, apply to one of the below job positions.
+                </p>
+
+                <p class="hiring-notice">
+                    We're hiring part-time and full-time store employees.
+                </p>
+
+            </section>
+
+
+            
+            <!-- JOB CATEGORY CARDS -->
+            <section class="job-categories">
+
+                <!-- LOGISTICS -->
+                <div class="job-category">
+
+                    <button class="job-category-heading"
+                            data-dialog="logistics-dialog">
+
+                        <span>Logistics</span>
+
+                        <img src="../../assets/images/logistics.png"
+                            alt="Logistics">
+
+                    </button>
+
+                </div>
+
+
+                <!-- SALES -->
+                <div class="job-category">
+
+                    <button class="job-category-heading"
+                            data-dialog="sales-dialog">
+
+                        <span>Sales</span>
+
+                        <img src="../../assets/images/sales.png"
+                            alt="Sales">
+
+                    </button>
+
+                </div>
+
+
+                <!-- ADMINISTRATION -->
+                <div class="job-category">
+
+                    <button class="job-category-heading"
+                            data-dialog="administration-dialog">
+
+                        <span>Administration</span>
+
+                        <img src="../../assets/images/administration.png"
+                            alt="Administration">
+
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- LOGISTICS POP-UP -->
+            <dialog class="job-dialog" id="logistics-dialog">
+
+                <button class="close-dialog" aria-label="Close">&times;</button>
+
+                <h2>Logistics Jobs</h2>
+
+                <article class="job-position">
+                    <h3>Picker</h3>
+
+                    <p>
+                        Pick items from inventory for customer orders,
+                        ensuring accuracy and timely fulfillment.
+                    </p>
+                </article>
+
+                <article class="job-position">
+                    <h3>Checker</h3>
+
+                    <p>
+                        Inspect and verify outgoing shipments to ensure accurate 
+                        order fulfillment and proper packaging.
+                    </p>
+                </article>
+
+                <article class="job-position">
+                    <h3>Internal Transport</h3>
+
+                    <p>
+                        Handle the internal movement of goods within the facility, 
+                        ensuring timely and safe delivery to designated areas.
+                    </p>
+                </article>
+
+                <article class="job-position">
+                    <h3>Driver</h3>
+
+                    <p>
+                        Deliver goods to our stores, safe and efficiently.
+                    </p>
+                </article>
+
+                <article class="job-position">
+                    <h3>Order Processor</h3>
+
+                    <p>
+                        Handle the processing of store orders, ensuring 
+                        efficient and accurate data entry.
+                    </p>
+                </article>
+
+                <article class="job-position">
+                    <h3>Logistic Manager</h3>
+
+                    <p>
+                        Plan, coordinate, and oversee logistics operations, including 
+                        inventory management, transportation, and supply chain 
+                        processes. Ensure the efficient flow of goods, optimize 
+                        resources, and maintain compliance with safety and 
+                        regulatory standards.
+                    </p>
+                </article>
+
+                <button type="button" class="dialog-close-button">Close</button>
+
+            </dialog>
+
+
+            <!-- SALES POP-UP -->
+            <dialog class="job-dialog" id="sales-dialog">
+
+                <button class="close-dialog" aria-label="Close">&times;</button>
+
+                <h2>Sales Job Positions</h2>
+
+                <article class="job-position">
+                    <h3>Job Position Title</h3>
+                    <p>Job description goes here.</p>
+                </article>
+
+                <button type="button" class="dialog-close-button">Close</button>
+
+            </dialog>
+
+
+            <!-- ADMINISTRATION POP-UP -->
+            <dialog class="job-dialog" id="administration-dialog">
+
+                <button class="close-dialog" aria-label="Close">&times;</button>
+
+                <h2>Administration Job Positions</h2>
+
+                <article class="job-position">
+                    <h3>Job Position Title</h3>
+                    <p>Job description goes here.</p>
+                </article>
+
+                <button type="button" class="dialog-close-button">Close</button>
+
+            </dialog>
+
+
+
+            <!-- APPLY SECTION -->
+            <section class="work-apply">
+
+                <a href="#application" class="apply-button">
+                    Click here to Apply
+                </a>
+
+            </section>
+
+            <hr>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer id="main-footer">
+        <!--
+            Add the same footer HTML
+            you used on the homepage.
+        -->
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script type="module" src="../../js/shared/navigation.js"></script>
+    <script type="module" src="../../js/pages/work-with-us.js"></script>
+
+</body>
+</html>

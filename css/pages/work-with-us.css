@@ -1,0 +1,271 @@
+/* ========================================
+    MAIN SECTION
+======================================== */
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 15vh;
+}
+
+/* =====================================
+   WORK WITH US PAGE
+===================================== */
+
+.work-with-us-page {
+    width: 100%;
+    background: var(--primary-color);
+    color: var(--text-primary);
+}
+
+
+/* =====================================
+   BANNER
+===================================== */
+
+.work-banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 8px solid var(--secondary-color);
+}
+
+.work-banner img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+/* =====================================
+   INTRODUCTION
+===================================== */
+
+.work-intro {
+    width: 87%;
+    margin: 28px auto 30px;
+}
+
+.work-intro h1 {
+    display: inline-block;
+    min-width: 170px;
+    color: var(--text-secondary);
+    font-size: 25px;
+    font-weight: 700;
+    border-top: 3px solid var(--secondary-color);
+    padding-top: 8px;
+    margin-bottom: 8px;
+}
+
+.work-intro p {
+    font-size: 25px;
+    color: var(--text-accent);
+    word-spacing: 6px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.work-intro .hiring-notice {
+    color: var(--black);
+    font-weight: 700;
+    margin-top: 22px;
+    margin-bottom: 28px;
+}
+
+/* =====================================
+   JOB CATEGORY 
+===================================== */
+
+.job-categories {
+    width: 87%;
+    margin: 0 auto 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: start;
+}
+
+.job-category {
+    width: 100%;
+    border: 3px solid var(--text-secondary);
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+.job-category-heading {
+    width: 100%;
+    min-height: 220px;
+    padding: 18px 12px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+
+    border: none;
+    background: var(--primary-color);
+
+    cursor: pointer;
+
+    color: var(--text-secondary);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Category images */
+
+.job-category-heading img {
+    width: 160px;
+    height: 110px;
+    object-fit: contain;
+    display: block;
+    margin-top: 20px;
+}
+
+/* =====================================
+   JOB POPUP
+===================================== */
+
+.job-dialog {
+    position: fixed;
+    width: 90%;
+    max-width: 650px;
+    max-height: 80vh;
+    padding: 22px 24px 18px;
+    margin: auto;
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--primary-color);
+    color: var(--text-accent);
+
+    overflow-y: auto;
+}
+
+/* Dark background behind popup */
+
+.job-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Popup heading */
+
+.job-dialog h2 {
+    color: var(--text-black);
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0 0 26px;
+}
+
+/* Top-right X button */
+
+.close-dialog {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    border: none;
+    background: none;
+    color: var(--text-black);
+    font-size: 30px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+/* =====================================
+   JOB POSITION CARDS
+===================================== */
+
+.job-position {
+    padding: 15px;
+    margin-bottom: 12px;
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    background: var(--bg);
+}
+
+.job-position h3 {
+    color: var(--text-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px;
+}
+
+.job-position p {
+    color: var(--text-black);
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* =====================================
+   BOTTOM CLOSE BUTTON
+===================================== */
+
+.dialog-close-button {
+    width: 100%;
+    padding: 11px;
+
+    margin-top: 17px;
+
+    border: none;
+    border-radius: 5px;
+
+    background: #3285cf;
+    color: #ffffff;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+/* Hover effect */
+
+.dialog-close-button:hover {
+    background-color: #246eaf;
+}
+
+/* =====================================
+   APPLY SECTION
+===================================== */
+
+.work-apply {
+    width: 100%;
+    height: 28vh;
+    padding: 30px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: var(--text-secondary);
+    border-bottom: 25px solid var(--primary-color);
+}
+
+.apply-button {
+    display: inline-block;
+    padding: 25px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background: var(--btn-bg);
+    color: var(--primary-color);
+    font-size: 60px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.apply-button:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    height: 8px;
+    border: none;
+    background: var(--secondary-color);
+}
