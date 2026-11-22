@@ -88,6 +88,9 @@ if (slider && slidesContainer && slides.length > 0 && prevButton && nextButton) 
         }
     });
 
+    // Automatic sliding every 5 seconds
+    setInterval(nextSlide, 5000);
+
     // DISPLAY THE FIRST SLIDE WHEN THE PAGE LOADS
 
     showSlide(currentSlide);
