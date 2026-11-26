@@ -57,3 +57,88 @@
     text-decoration: none;
     margin-right: -10px;
 }
+
+
+/* ========================================
+   PARTNER WITH US DROPDOWN
+======================================== */
+
+.nav-links .dropdown {
+    position: relative;
+}
+
+/* Dropdown toggle button */
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    padding: 0;
+    border: none;
+    background: none;
+
+    color: var(--secondary-color);
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.dropdown-toggle:hover {
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+/* Dropdown arrow */
+.dropdown-arrow {
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: none;
+    min-width: 280px;
+
+    padding: 8px 0;
+    margin: 0;
+
+    list-style: none;
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    z-index: 1001;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    display: block;
+    padding: 12px 18px;
+
+    color: var(--text-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* Dropdown link hover */
+.dropdown-menu li a:hover {
+    text-decoration: underline;
+}
+
+/* Show dropdown on hover or keyboard focus */
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+

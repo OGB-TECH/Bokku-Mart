@@ -12,6 +12,7 @@
      --bg-page: #ffffff;
      --bg-header: #001DDD;
      --bg-footer: #001DDD;
+     --bg-text: #E2E8F0;
 
      /* Button Colours */
      --btn-primary: #0078ff;
@@ -25,6 +26,7 @@
      --text-accent: #3f3f3f;
      --text-blue: #4055DE;
      --text-black: #1a202c;
+     --text-gray: #2D3748;
  
      /* Casual Colours */
      --black: #000;
