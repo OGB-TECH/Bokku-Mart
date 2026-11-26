@@ -1,0 +1,36 @@
+/* =========================================================
+   COLOURS & SHARED VALUES
+   Change a colour here and it updates everywhere.
+   ========================================================= */
+   :root {
+     /* Primary Colours */
+     --primary-color: #ffffff;
+     --secondary-color: #ffee01;
+     --accent-color: #0078ff;
+ 
+     /* Background Colours */
+     --bg-page: #ffffff;
+     --bg-header: #001DDD;
+     --bg-footer: #001DDD;
+     --bg-text: #E2E8F0;
+
+     /* Button Colours */
+     --btn-primary: #0078ff;
+     --btn-secondary: #125fb8;
+     --btn-bg: #ffffff1a;
+     --btn-close: #3285cf;
+ 
+     /* Text Colours */
+     --text-primary: #242424;
+     --text-secondary: #001DDD;
+     --text-accent: #3f3f3f;
+     --text-blue: #4055DE;
+     --text-black: #1a202c;
+     --text-gray: #2D3748;
+ 
+     /* Casual Colours */
+     --black: #000;
+     --bg: #f7fafc;
+     --border: #d6e4f6;
+     
+   }

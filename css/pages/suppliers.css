@@ -1,0 +1,290 @@
+/* ========================================
+    MAIN SECTION
+======================================== */
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 18vh;
+}
+
+/* MAIN TWO-COLUMN LAYOUT */
+.suppliers-section {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    gap: 8%;
+    align-items: start;
+    padding: 0 7%;
+}
+
+/* ========================================
+   TEXT CONTENT
+======================================== */
+
+.suppliers-content {
+    width: 100%;
+}
+
+.section-line {
+    width: 170px;
+    height: 8px;
+    background-color: var(--secondary-color);
+    margin: 30px 0 20px 0;
+}
+
+.suppliers-content h1 {
+    color: var(--text-secondary);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.suppliers-content p {
+    color: var(--text-gray);
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 50px;
+    word-spacing: 9px;
+}
+
+
+/* SUPPLIERS LIST */
+
+.suppliers-content ul {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 50px;
+    margin: 20px 0;
+}
+
+.suppliers-content li {
+    font-size: 25px;
+    line-height: 1.5;
+    color: var(--text-gray);
+    padding-left: 5px;
+    margin-bottom: 10px;
+    word-spacing: 6px;
+}
+
+/* Keep wrapped text aligned with the beginning of the text */
+.suppliers-content li {
+    overflow-wrap: break-word;
+}
+
+
+/* ========================================
+   SUPPLIERS IMAGES
+======================================== */
+
+.suppliers-images {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 45px;
+}
+
+.suppliers-images img {
+    display: block;
+    width: 90%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* HOVER EFFECT */
+
+.suppliers-images img:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+}
+
+/* MAIN TWO-COLUMN LAYOUT */
+.suppliers-section-2 {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    gap: 8%;
+    align-items: start;
+    padding: 0 7%;
+}
+
+/* ========================================
+   TEXT CONTENT
+======================================== */
+
+.suppliers-content-2 {
+    width: 100%;
+}
+
+
+.suppliers-content-2 h1 {
+    color: var(--text-secondary);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.suppliers-content-2 p {
+    color: var(--text-gray);
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: justify;
+    word-spacing: 9px;
+}
+
+.suppliers-content-2 .expectations-list {
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 50px;
+    margin: 0;
+}
+
+.suppliers-content-2 li {
+    font-size: 25px;
+    line-height: 1.5;
+    color: var(--text-gray);
+    padding-left: 5px;
+    margin-bottom: 10px;
+    word-spacing: 6px;
+}
+
+.suppliers-content-2 a {
+    color: var(--text-secondary);
+    text-decoration: underline;
+}
+
+.container {
+    width: 630px;
+    height: 350px;
+    background: var(--bg-text);
+    padding: 0 25px 20px 25px;
+}
+
+.container h1 {
+    color: var(--text-secondary);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container p {
+    color: var(--text-gray);
+    font-size: 25px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.container a {
+    color: var(--text-secondary);
+    text-decoration: underline;
+}
+
+/* ========================================
+   SUPPLIER FAQ SECTION
+======================================== */
+
+.supplier-faq-container {
+    width: 100%;
+    margin-top: 50px;
+    padding: 30px 50px;
+    background-color: var(--primary-color);
+}
+
+.supplier-faq {
+    width: 100%;
+    padding: 20px 50px;
+    margin-bottom: 60px;
+    background-color: var(--bg-text);
+}
+
+.section-line-faq {
+    width: 200px;
+    height: 8px;
+    background-color: var(--secondary-color);
+    margin: 25px 0 15px 0;
+}
+
+/* FAQ HEADING */
+
+.supplier-faq h2 {
+    color: var(--text-secondary);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* FAQ CONTAINER */
+
+.faq-container {
+    width: 100%;
+}
+
+/* INDIVIDUAL FAQ */
+
+.faq-item {
+    margin-bottom: 25px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+/* QUESTION */
+
+.faq-item summary {
+    position: relative;
+    padding-left: 30px;
+
+    color: var(--black);
+    font-size: 22px;
+    font-weight: 600;
+
+    list-style: none;
+    cursor: pointer;
+}
+
+/* REMOVE DEFAULT ARROW */
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+/* PLUS AND MINUS SYMBOLS */
+
+.faq-item summary::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    color: var(--text-secondary);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.faq-item[open] summary::before {
+    content: "−";
+}
+
+/* ANSWER */
+
+.faq-answer {
+    padding: 30px 0 20px 20px;
+}
+
+.faq-answer p {
+    color: var(--text-gray);
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+.faq-answer span,
+.faq-answer a {
+    color: var(--text-secondary);
+}
+
+.faq-answer a {
+    text-decoration: none;
+}
+
+.faq-answer a:hover {
+    text-decoration: underline;
+}
